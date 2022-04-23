@@ -28,3 +28,17 @@ I like IT and want to find my place in it.
   <script src="script.js"></script>
 </body>
 ```
+
+### Work experience:
+
+*No IT-related work experience yet...*
+
+### Courses:
+
+- "JS / FRONT-END. STAGE 0 (RU)" (current)
+- Python for begginers (2019)
+
+### Languages:
+
+- English - Upper-intermediate, IETLS 7.5 (2010)
+- Russian - Native
