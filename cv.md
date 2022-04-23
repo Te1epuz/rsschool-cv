@@ -1,5 +1,7 @@
 ## Martinovich Alexander
 
+![Avatar](img/avatar.jpg "Почти фото")
+
 ### Contacts:
 **Phone:** +7(962)360-42-14  
 **Telegram:** @Te1epuz  
