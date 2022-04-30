@@ -7,8 +7,26 @@ header, footer {
   background-color: rgb(230, 230, 230);
 }
 
+header {
+  padding: 10px;
+  text-align: center;
+}
+
+header nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+header nav ul li {
+  display: inline;
+}
+
 main {
   background-color: rgb(250, 250, 250);
-  padding-left: 50px;
-  padding-right: 50px;
+  padding: 10px 50px 10px 50px;
+}
+
+footer {
+  padding: 10px 50px 10px 50px;
+  text-align: center;
 }
