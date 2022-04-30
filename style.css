@@ -1,0 +1,14 @@
+.wrapper {
+  width: 670px;
+  margin: 0 auto;
+}
+
+header, footer {
+  background-color: rgb(230, 230, 230);
+}
+
+main {
+  background-color: rgb(250, 250, 250);
+  padding-left: 50px;
+  padding-right: 50px;
+}
