@@ -8,67 +8,77 @@
   <title>Alexander Martinovich</title>
 </head>
 <body>
-  <header>
-    <nav>      
-      <!-- Тут будут ссылки-->
-    </nav>
-  </header>
+  <div>
+    <header>
+      <nav>      
+        <!-- Тут будут ссылки-->
+      </nav>
+    </header>
 
-  <main>
-    <h1>Alexander Martinovich</h1>
-    <img src="img/avatar.jpg" alt="Avatar">
+    <main>
+      <div>
+        <h1>Alexander Martinovich</h1>
+        <img src="img/avatar.jpg" alt="почти фото">
 
-    <h2>Contacts:</h2>
-    <ul>
-      <li>Phone: +7(962)360-42-14</li>
-      <li>Telegram: @Te1epuz</li>
-      <li>Discord: Tappa#8144 / @te1epuz</li>
-      <li>E-mail: Alexander_Martinovich@msn.com</li>
-    </ul>
+        <h2>About Myself:</h2>
+        <p>I like IT and want to find my place in it.</p> 
+      
+        <h2>Contacts:</h2>
+        <ul>
+          <li>Phone: +7(962)360-42-14</li>
+          <li>Telegram: @Te1epuz</li>
+          <li>Discord: Tappa#8144 / @te1epuz</li>
+          <li>E-mail: Alexander_Martinovich@msn.com</li>
+        </ul>
 
-    <h2>About Myself:</h2>
-    <p>I like IT and want to find my place in it.</p>
+        <h2>Skills:</h2>
+        <ul>
+          <li>HTML, CSS</li>
+          <li>GitHub</li>
+          <li>VS Code</li>
+          <li>Pyton</li>
+        </ul>
 
-    <h2>Skills:</h2>
-    <ul>
-      <li>HTML, CSS</li>
-      <li>GitHub</li>
-      <li>VS Code</li>
-      <li>Pyton</li>
-    </ul>
+        <h2>Code example:</h2>
+        <pre>
+          <code>
+    new_city_list=[]
+    with open('cities.csv', 'r', encoding='utf-8') as f:
+        new_city_list = f.read()
+        new_city_list = new_city_list.split(';')
+            
+    city_list = new_city_list.copy()
+    last_letter = ''
+          </code>
+        </pre>
 
-    <h2>Code example:</h2>
-    <pre>
-      <code>
-        new_city_list=[]
-        with open('cities.csv', 'r', encoding='utf-8') as f:
-            new_city_list = f.read()
-            new_city_list = new_city_list.split(';')
-        
-        city_list = new_city_list.copy()
-        last_letter = ''
-      </code>
-    </pre>
+        <h2>Work experience:</h2>
+        <p>No IT-related work experience yet...</p>
 
-    <h2>Work experience:</h2>
-    <p>No IT-related work experience yet...</p>
+        <h2>Projects:</h2>
+        <ul>
+          <li><a href="https://github.com/Te1epuz/test_bot/blob/master/bot.py">Telegram bot</a></li>
+          <li>More will be added soon (tm)</li>
+        </ul>
 
-    <h2>Courses:</h2>
-    <ul>
-      <li>JS / FRONT-END. STAGE 0 (RU) (current)</li>
-      <li>Python for begginers (2019)</li>
-    </ul>
+        <h2>Courses:</h2>
+        <ul>
+          <li>JS / FRONT-END. STAGE 0 (RU) (current)</li>
+          <li>Python for begginers (2019)</li>
+        </ul>
 
-    <h2>Languages:</h2>
-    <ul>
-      <li>English - Upper-intermediate, IETLS 7.5 (2010)</li>
-      <li>Russian - Native</li>
-    </ul>  
-  </main>
+        <h2>Languages:</h2>
+        <ul>
+          <li>English - Upper-intermediate, IETLS 7.5 (2010)</li>
+          <li>Russian - Native</li>
+        </ul>  
+    </main>
 
-  <footer>
-    <!--ссылка на гитхаб автора работы, год создания приложения, логотип курса со ссылкой на курс-->
-  </footer>
-
+    <footer>
+      <a href="https://github.com/Te1epuz">Мой Github</a>
+      <span>2022</span>
+      <a href="https://rs.school/js/"><img src="https://rs.school/images/rs_school_js.svg" alt="логотип RS school" width="64" height="32"></a>
+    </footer>
+  </div>
 </body>
 </html>
